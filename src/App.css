@@ -1,0 +1,133 @@
+body {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.landingpage {
+  background-image: url('./imgs/maing-bg.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Header*/
+
+.header {
+  background-image: url('./imgs/small-bg-1.png');
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-sub {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  /*justify-content: space-around;*/
+}
+
+.header-sub a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 50%;
+  text-align: center;
+}
+
+.header-sub a:active, .header-sub a:visited {
+  border-bottom: 4px #C2E0E1 solid;
+  margin-bottom: -4px;
+}
+
+/*Forms*/
+
+.info-box {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  padding: 20px;
+}
+
+.entry-box {
+  border: 1px lightgray solid;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.entry-box label {
+  color: gray;
+  font-size: 9px;
+  align-self: center;
+}
+
+.entry-box input {
+  flex-grow: 2;
+}
+
+.info-box a {
+ text-decoration: none;
+}
+
+.info-box p {
+  font-size: 9px;
+  color: gray;
+}
+
+/*Buttons*/
+
+#button-signup {
+  background-color: #673AB7;
+}
+
+#button-login {
+  background-color: #1A62BF;
+}
+
+.entry-box button {
+  width: 100%;
+}
