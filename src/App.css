@@ -77,18 +77,46 @@ body {
   text-align: center;
 }
 
-.header-sub a:active, .header-sub a:visited {
+.selected {
   border-bottom: 4px #C2E0E1 solid;
   margin-bottom: -4px;
 }
 
 /*Forms*/
 
+form {
+  position: relative;
+}
+
+.login form {
+
+}
+
+.login form {
+  padding-top: 100px;
+}
+
+.login .entry-box {
+  margin-bottom: 15px;
+}
+
+.login .entry-box:last-child {
+  margin-bottom: 0;
+}
+
 .info-box {
   position: absolute;
   top: 40%;
   width: 100%;
   padding: 20px;
+  bottom: 0;
+}
+
+.info-box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .entry-box {
@@ -126,6 +154,9 @@ body {
 
 #button-login {
   background-color: #1A62BF;
+  position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .entry-box button {

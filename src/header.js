@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logosmall from './imgs/small-logo-white.png';
-import {Link} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -8,8 +8,8 @@ class Header extends Component {
       <div className="header">
         <img src={logosmall}/>
           <div className="header-sub">
-            <Link to="./signup">Signup</Link>
-            <Link to="./login">Login</Link>
+            <NavLink to="/signup" activeClassName="selected">Signup</NavLink>
+            <NavLink to="/login" activeClassName="selected">Login</NavLink>
           </div>
       </div>
       
