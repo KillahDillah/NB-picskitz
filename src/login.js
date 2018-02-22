@@ -9,6 +9,7 @@ class Login extends Component {
         <Header/>
         <div className="info-box">
           <form>
+          
             <div className="entry-box-login">
               <div className="entry-box">
                 <label>Username</label>
@@ -20,9 +21,9 @@ class Login extends Component {
               </div>
               <p>Don't have an account? <a href="#">Sign up here!</a></p>
             </div>
-              <div className="entry-box" id="button-login">
-                <button type="submit"><img src={arrow}/></button>
-              </div>
+        
+                <button type="submit" className="entry-box" id="button-login"><img src={arrow}/></button>
+              
           </form>
         </div>
       </div>

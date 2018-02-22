@@ -29,9 +29,9 @@ class Signup extends Component {
               <label>Password</label>
               <input type="password" name="password" placeholder="*****" />
             </div>
-            <div className="entry-box" id="button-signup">
-              <button type="submit"><img src={arrow}/></button>
-            </div>
+            
+              <button type="submit" className="entry-box" id="button-signup"><img src={arrow}/></button>
+            
           </form>
         </div>
       </div>
