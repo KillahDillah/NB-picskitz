@@ -203,16 +203,16 @@ button:hover {
   .entry-box-login, .entry-box-login div {
     width: 100%;
   }
-  .entry-box label {
+  /*.entry-box label {
     font-size: 1em;
-  }
-  .entry-box input {
+  }*/
+  /*.entry-box input {
     line-height: 30px;
     font-size: 1.2em;
-  }
-  .entry-box img {
+  }*/
+  /*.entry-box img {
     height: 2.5em;
-  }
+  }*/
 }
 
 @media screen and (min-width: 850px){
